@@ -16,11 +16,14 @@ public class GameSession : MonoBehaviour {
     //staet variables
     [SerializeField] int currentScore = 0;
 
+    // this uses the Singleton Pattern
     private void Awake()
     {
         int gamestatusCount = FindObjectsOfType<GameSession>().Length;
         if (gamestatusCount > 1)
         {
+            // dont forget the SetActive False, whitout it it can lead to nullpointer errors in certain circumstances.
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
         else

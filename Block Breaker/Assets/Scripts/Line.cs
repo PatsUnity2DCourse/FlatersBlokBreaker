@@ -15,11 +15,11 @@ public class Line : MonoBehaviour
         // Add a Line Renderer to the GameObject
         line = FindObjectOfType<LineRenderer>();
         // Set the width of the Line Renderer
-        AnimationCurve curve = new AnimationCurve();
-        curve.AddKey(0.05F, 0.05F);
-        line.widthCurve = curve;
+        //AnimationCurve curve = new AnimationCurve();
+        //curve.AddKey(0.05F, 0.05F);
+       // line.widthCurve = curve;
         // Set the number of vertex fo the Line Renderer
-        line.positionCount =2;
+        line.positionCount = 2;
         // Update default position of the two vertex of the Line Renderer
         line.SetPosition(0, gameObject1.transform.position);
         line.SetPosition(1, gameObject2.transform.position);

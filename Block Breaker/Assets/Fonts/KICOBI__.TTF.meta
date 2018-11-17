@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: cd7b8c22590540b478a87c1538f8dca7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ki Comic
+  fontNames:
+  - Ki Comic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 94b428712cedd794786bcc57d25fd9cd, type: 3}
+  - {fileID: 12800000, guid: 71297d2aa2663ec4aace489dea21d433, type: 3}
+  - {fileID: 12800000, guid: 8e76542b2cd5aa644b7f598db7a3a26a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
